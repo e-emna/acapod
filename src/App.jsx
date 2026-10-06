@@ -189,7 +189,6 @@ export default function App() {
           onPlayPause={togglePlay}
           onFav={() => current && toggleFav(current)}
         />
-        <div className="brand"></div>
       </div>
     </div>
   );
